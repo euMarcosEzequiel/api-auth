@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "api_dev",
+    "host": "localhost",
+    "logging": false,
+    "dialect": "postgres",
+    "port": 5433
+  },
+  "homologation": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "logging": false,
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "logging": false,
+    "dialect": "postgres",
+    "port": 5432
+  }
+}
