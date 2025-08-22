@@ -1,0 +1,9 @@
+version: '3.7'
+services: 
+  api-auth: 
+    image: api-auth
+    ports: 
+      - "2000:2000"
+    build: 
+      context: .
+      dockerfile: Dockerfile.prd
